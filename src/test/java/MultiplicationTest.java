@@ -1,7 +1,4 @@
-import com.company.Const;
-import com.company.Linear;
-import com.company.Multiplication;
-import com.company.Sum;
+import com.company.*;
 import org.junit.*;
 
 import java.text.NumberFormat;
