@@ -52,7 +52,7 @@ public class LinearTest {
     @Test
     public void DerivativeMethodTest(){
         result = -0.1 ;
-        assertEquals("x` = -0.1",result,Linear.X.derivative().calculate(1));
+        assertEquals("x` = -0.1",result,linear.derivative().calculate(1));
     }
 
     @Test
