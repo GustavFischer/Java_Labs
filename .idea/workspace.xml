@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae9f9e98-712b-4330-997c-cf2d2159d1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PowTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AbsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.PowTest">
+  <component name="RunManager" selected="JUnit.SinTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/liberica-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -141,16 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpTest.DerivativeMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled104" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpTest" />
-      <option name="METHOD_NAME" value="DerivativeMethodTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExpTest.ToPrettyStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
@@ -170,13 +158,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SinTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SinTest" />
         <item itemvalue="JUnit.PowTest" />
         <item itemvalue="JUnit.AbsTest" />
         <item itemvalue="JUnit.ExpTest" />
         <item itemvalue="JUnit.ExpTest.ToPrettyStringTest" />
-        <item itemvalue="JUnit.ExpTest.DerivativeMethodTest" />
       </list>
     </recent_temporary>
   </component>
