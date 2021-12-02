@@ -28,7 +28,6 @@ public class Main {
         System.out.format("f'(-0.1) = %f",expression1.derivative().calculate(1)).println();
 
         final Function expression2 =
-                Divide.of(
                         Sum.of(
                         Multiplication.of(
                                 Linear.X,
@@ -39,19 +38,20 @@ public class Main {
                                                         Linear.X)
                                         ,1)
                                 ,1)
-                                ),Const.of(5.0)
-                        ),
-                        Abs.of(
-                                Sin.of(
-                                        Pow.of(3,
-                                                Sum.of(
-                                                        Multiplication.of(
-                                                                Const.of(-7.0),
-                                                                Linear.X),
-                                                        Const.of(5.0)
-                                                ),1)
-                                ,1)
-                        )
+                                ),
+                                Divide.of(Const.of(5.0),
+                                        Abs.of(
+                                                Sin.of(
+                                                        Pow.of(3,
+                                                                Sum.of(
+                                                                        Multiplication.of(
+                                                                                Const.of(-7.0),
+                                                                                Linear.X),
+                                                                        Const.of(5.0)
+                                                                ),1)
+                                                        ,1)
+                                        ))
+
                 );
         System.out.format("f(x) = %s",expression2.toPrettyString(nf)).println();
         System.out.format("f'(x) = %s",expression2.derivative().toPrettyString(nf)).println();
