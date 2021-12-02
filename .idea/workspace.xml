@@ -1,11 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae9f9e98-712b-4330-997c-cf2d2159d1a7" name="Changes" comment="" />
+    <list default="true" id="ae9f9e98-712b-4330-997c-cf2d2159d1a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LinearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2021_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2021_10_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Abs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Composite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Cos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Difference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Divide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Exp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Linear$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Linear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Ln.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Pow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Sin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Tan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Abs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Abs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Cos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Cos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Difference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Difference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Divide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Exp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Exp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Ln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Ln.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Pow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Sin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Tan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -14,6 +72,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21QbvAp5nT1WHvaiMkAPfrCvYfk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,18 +140,82 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LinearTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/liberica-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="untitled104" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearTest.CalculateMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearTest" />
+      <option name="METHOD_NAME" value="CalculateMethodTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearTest.DerivativeMethodReturnConstType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearTest" />
+      <option name="METHOD_NAME" value="DerivativeMethodReturnConstType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearTest.DerivativeMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearTest" />
+      <option name="METHOD_NAME" value="DerivativeMethodTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearTest.ToPrettyStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearTest" />
+      <option name="METHOD_NAME" value="ToPrettyStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LinearTest" />
+        <item itemvalue="JUnit.LinearTest.DerivativeMethodTest" />
+        <item itemvalue="JUnit.LinearTest.ToPrettyStringTest" />
+        <item itemvalue="JUnit.LinearTest.DerivativeMethodReturnConstType" />
+        <item itemvalue="JUnit.LinearTest.CalculateMethodTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,6 +238,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
