@@ -47,7 +47,7 @@ public class DivideTest {
     @Test
     public void DerivativeMethodReturnDivideType() {
         result = divider.of(new Const(1), new Const(2)).derivative();
-        assertTrue("method must return Const", result instanceof Divide);
+        assertTrue("method must return Divide", result instanceof Divide);
     }
 
     @Test

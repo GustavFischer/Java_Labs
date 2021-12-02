@@ -6,24 +6,24 @@ import java.text.NumberFormat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class ExpTest {
-    private Exp exponer;
+public class AbsTest {
+    private Abs abs;
     private Object result;
 
     @BeforeClass
     public static void GlobalSetUp() {
-        System.out.println("Starting Exp Tests...");
+        System.out.println("Starting Abs Tests...");
     }
 
     @AfterClass
     public static void GlobalFinish() {
-        System.out.println("Exp Tests have finished!");
+        System.out.println("Abs Tests have finished!");
 
     }
 
     @Before
     public void SetUp() {
-        exponer = new Exp(new Linear(-0.1),2);
+        abs = new Abs(new Linear(-0.1));
         result = new Object();
     }
 
@@ -34,37 +34,37 @@ public class ExpTest {
 
     @Test
     public void CalculateMethodReturnDoubleType() {
-        result = exponer.calculate(1);
+        result = abs.calculate(1);
         assertTrue("method must return double", result instanceof Double);
     }
 
     @Test
     public void CalculateMethodTest() {
-        result = 3*Math.exp(2);
-        assertEquals("3 * e^2 = 22.167", result, exponer.of(new Const(2),3).calculate(1));
+        result = 2.0;
+        assertEquals("|-2| = 2", result, abs.of(new Const(-2)).calculate(1));
     }
 
     @Test
     public void DerivativeMethodReturnMultiplicationType() {
-        result = exponer.of(new Const(1), 2).derivative();
+        result = abs.of(new Const(1)).derivative();
         assertTrue("method must return Multiplication", result instanceof Multiplication);
     }
 
     @Test
     public void DerivativeMethodTest() {
-        result = 0.0;
-        assertEquals("(2*e^3)` = 0", result, exponer.of(new Const(3), 2).derivative().calculate(1));
+        result = 3.0;
+        assertEquals("(2*e^3)` = 0", result, abs.of(new Linear(-3)).derivative().calculate(1));
     }
 
     @Test
     public void ToPrettyStringReturnStringType() {
-        result = exponer.toPrettyString(NumberFormat.getInstance());
+        result = abs.toPrettyString(NumberFormat.getInstance());
         assertTrue("method must return String", result instanceof String);
     }
 
     @Test
     public void ToPrettyStringTest() {
-        result = "e^(2)";
-        assertEquals("must be e^(2)", result, exponer.of(new Const(2), 1).toPrettyString(NumberFormat.getInstance()));
+        result = "|2|";
+        assertEquals("must be |2|", result, abs.of(new Const(2)).toPrettyString(NumberFormat.getInstance()));
     }
 }

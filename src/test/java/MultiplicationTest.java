@@ -50,7 +50,7 @@ public class MultiplicationTest {
     @Test
     public void DerivativeMethodReturnSumType() {
         result = multier.of(new Const(1), new Const(2)).derivative();
-        assertTrue("method must return Const", result instanceof Sum);
+        assertTrue("method must return Sum", result instanceof Sum);
     }
 
     @Test

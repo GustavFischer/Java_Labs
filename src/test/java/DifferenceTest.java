@@ -47,7 +47,7 @@ public class DifferenceTest {
     @Test
     public void DerivativeMethodReturnSumType() {
         result = differencer.of(new Const(1), new Const(2)).derivative();
-        assertTrue("method must return Const", result instanceof Difference);
+        assertTrue("method must return Difference", result instanceof Difference);
     }
 
     @Test
