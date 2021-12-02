@@ -48,7 +48,7 @@ public class MultiplicationTest {
     }
 
     @Test
-    public void DerivativeMethodReturnConstType() {
+    public void DerivativeMethodReturnSumType() {
         result = multier.of(new Const(1), new Const(2)).derivative();
         assertTrue("method must return Const", result instanceof Sum);
     }
@@ -68,6 +68,6 @@ public class MultiplicationTest {
     @Test
     public void ToPrettyStringTest() {
         result = "(2*1*x)";
-        assertEquals("must be -0.1*x", result, multier.of(new Const(2), new Linear(1)).toPrettyString(NumberFormat.getInstance()));
+        assertEquals("must be (2*1*x)", result, multier.of(new Const(2), new Linear(1)).toPrettyString(NumberFormat.getInstance()));
     }
 }

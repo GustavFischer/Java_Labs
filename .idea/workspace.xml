@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae9f9e98-712b-4330-997c-cf2d2159d1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MultiplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DivideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LinearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LinearTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.MultiplicationTest.ToPrettyStringTest">
+  <component name="RunManager" selected="JUnit.DivideTest.ToPrettyStringTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/liberica-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -123,50 +122,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearTest.DerivativeMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivideTest.DerivativeMethodReturnConstType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinearTest" />
-      <option name="METHOD_NAME" value="DerivativeMethodTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiplicationTest.DerivativeMethodReturnConstType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled104" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MultiplicationTest" />
+      <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <option name="METHOD_NAME" value="DerivativeMethodReturnConstType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTest.DerivativeMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivideTest.DerivativeMethodReturnDivideType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MultiplicationTest" />
+      <option name="MAIN_CLASS_NAME" value="DivideTest" />
+      <option name="METHOD_NAME" value="DerivativeMethodReturnDivideType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivideTest.DerivativeMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <option name="METHOD_NAME" value="DerivativeMethodTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTest.ToPrettyStringReturnStringType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivideTest.ToPrettyStringReturnStringType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MultiplicationTest" />
+      <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <option name="METHOD_NAME" value="ToPrettyStringReturnStringType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTest.ToPrettyStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivideTest.ToPrettyStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MultiplicationTest" />
+      <option name="MAIN_CLASS_NAME" value="DivideTest" />
       <option name="METHOD_NAME" value="ToPrettyStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MultiplicationTest.ToPrettyStringTest" />
-        <item itemvalue="JUnit.MultiplicationTest.ToPrettyStringReturnStringType" />
-        <item itemvalue="JUnit.MultiplicationTest.DerivativeMethodTest" />
-        <item itemvalue="JUnit.LinearTest.DerivativeMethodTest" />
-        <item itemvalue="JUnit.MultiplicationTest.DerivativeMethodReturnConstType" />
+        <item itemvalue="JUnit.DivideTest.ToPrettyStringTest" />
+        <item itemvalue="JUnit.DivideTest.ToPrettyStringReturnStringType" />
+        <item itemvalue="JUnit.DivideTest.DerivativeMethodTest" />
+        <item itemvalue="JUnit.DivideTest.DerivativeMethodReturnDivideType" />
+        <item itemvalue="JUnit.DivideTest.DerivativeMethodReturnConstType" />
       </list>
     </recent_temporary>
   </component>
