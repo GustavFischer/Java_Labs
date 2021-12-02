@@ -33,38 +33,38 @@ public class LinearTest {
 
     @Test
     public void CalculateMethodReturnDoubleType(){
-        result = Linear.X.calculate(1);
+        result = linear.calculate(1);
         assertTrue("method must return double",result instanceof Double);
     }
 
     @Test
-    public void CalculateMethodTest() throws Exception{
-        result = linear.calculate(1);
-        assertEquals("1 * (-0.1) = -0.1",result,Linear.X.calculate(1));
+    public void CalculateMethodTest(){
+        result = -0.1;
+        assertEquals("1 * (-0.1) = -0.1",result,linear.calculate(1));
     }
 
     @Test
     public void DerivativeMethodReturnConstType(){
-        result = Linear.X.derivative();
+        result = linear.derivative();
         assertTrue("method must return Const",result instanceof Const);
     }
 
     @Test
     public void DerivativeMethodTest(){
-        result = linear.derivative().calculate(1);
+        result = -0.1 ;
         assertEquals("x` = -0.1",result,Linear.X.derivative().calculate(1));
     }
 
     @Test
     public void ToPrettyStringReturnStringType(){
-        result = Linear.X.toPrettyString(NumberFormat.getInstance());
+        result = linear.toPrettyString(NumberFormat.getInstance());
         assertTrue("method must return String",result instanceof String);
     }
 
     @Test
     public void ToPrettyStringTest(){
-        result = linear.toPrettyString(NumberFormat.getInstance());
-        assertEquals("must be -0.1*x",result,new Linear(-0.1).toPrettyString(NumberFormat.getInstance()));
+        result = "-0,1*x";
+        assertEquals("must be -0.1*x",result,linear.toPrettyString(NumberFormat.getInstance()));
     }
 
 
