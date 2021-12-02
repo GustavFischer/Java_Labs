@@ -16,7 +16,7 @@ public class Ln implements Function{
     @Override
     public double calculate(double x)
     {
-        return Math.log(term.calculate(x))*coef;
+        return Math.log10(term.calculate(x))*coef;
     }
     @Override
     public Function derivative()

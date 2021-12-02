@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae9f9e98-712b-4330-997c-cf2d2159d1a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Ln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Ln.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.TanTest">
+  <component name="RunManager" selected="JUnit.LnTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/liberica-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,19 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AbsTest" />
+      <option name="MAIN_CLASS_NAME" value="CosTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled104" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CosTest" />
+      <option name="MAIN_CLASS_NAME" value="LnTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LnTest" />
         <item itemvalue="JUnit.TanTest" />
         <item itemvalue="JUnit.CosTest" />
         <item itemvalue="JUnit.SinTest" />
         <item itemvalue="JUnit.PowTest" />
-        <item itemvalue="JUnit.AbsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +198,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LnTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
